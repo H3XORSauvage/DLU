@@ -14,14 +14,14 @@ import os
 
 
 
-def demarrage_animation():
+def demarrage():
     print("Bienvenue! Lancement du script en cours...")
     print("By Saucisson :D")
 
 if __name__ == "__main__":
-    demarrage_animation()
+    demarrage()
 
-def recherche_mot_cle_dans_fichier(nom_fichier, mot_cle):
+def recherche_DB(nom_fichier, mot_cle):
     resultats = []
     with open(nom_fichier, 'r', encoding='utf-8') as fichier:
         for index, ligne in enumerate(fichier, start=1):
@@ -29,13 +29,13 @@ def recherche_mot_cle_dans_fichier(nom_fichier, mot_cle):
                 resultats.append((nom_fichier, index, ligne.strip()))
     return resultats
 
-def parcourir_sous_dossiers_recherche_mot_cle(dossier_parent, mot_cle):
+def parcourir_sous_dossiers_recherche_DB(dossier_parent, mot_cle):
     resultats = []
     for dossier_racine, _, fichiers in os.walk(dossier_parent):
         for nom_fichier in fichiers:
             if nom_fichier.endswith('.txt'):
                 chemin_fichier = os.path.join(dossier_racine, nom_fichier)
-                resultats.extend(recherche_mot_cle_dans_fichier(chemin_fichier, mot_cle))
+                resultats.extend(recherche_DB(chemin_fichier, mot_cle))
     return resultats
 
 if __name__ == "__main__":
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     mot_cle = input("Entrez le mot à rechercher: ")
 
     # Recherche dans les DB
-    resultats = parcourir_sous_dossiers_recherche_mot_cle(dossier_parent, mot_cle)
+    resultats = parcourir_sous_dossiers_recherche_DB(dossier_parent, mot_cle)
 
     print("Résultats de la recherche :\n")
     if resultats:
