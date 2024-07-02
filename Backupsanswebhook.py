@@ -1,18 +1,8 @@
 import os
+import colorama
+from colorama import Fore, Style
 
-#
-# ██░ ██ ▒██   ██▒ ▒█████   ██▀███  
-#▓██░ ██▒▒▒ █ █ ▒░▒██▒  ██▒▓██ ▒ ██▒
-#▒██▀▀██░░░  █   ░▒██░  ██▒▓██ ░▄█ ▒
-#░▓█ ░██  ░ █ █ ▒ ▒██   ██░▒██▀▀█▄  
-#░▓█▒░██▓▒██▒ ▒██▒░ ████▓▒░░██▓ ▒██▒
-# ▒ ░░▒░▒▒▒ ░ ░▓ ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░
-# ▒ ░▒░ ░░░   ░▒ ░  ░ ▒ ▒░   ░▒ ░ ▒░
-# ░  ░░ ░ ░    ░  ░ ░ ░ ▒    ░░   ░ 
-# ░  ░  ░ ░    ░      ░ ░     ░     
-#By saucisson_sauvage.flp
-
-
+colorama.init()
 
 def demarrage():
     print("Bienvenue! Lancement du script en cours...")
@@ -50,9 +40,9 @@ if __name__ == "__main__":
     print("Résultats de la recherche :\n")
     if resultats:
         for nom_fichier, ligne_numero, ligne in resultats:
-            print(f"Dans le fichier {nom_fichier}, ligne {ligne_numero}:")
+            print(f"{Fore.GREEN}[NEW]{Style.RESET_ALL} {nom_fichier}, ligne {ligne_numero}: {ligne.strip()}")
             print(f"    {ligne}\n")
     else:
-        print("Aucune DB trouvé pour lui cte golmon.")
+        print(f"{Fore.RED}Aucune DB trouvée pour ' {Fore.BLUE}{mot_cle} {Style.RESET_ALL} {Fore.RED}'.{Style.RESET_ALL}")
 
-    input("Appuyez sur Entrée quit..")
+    input("Entrée pour quitter..")
