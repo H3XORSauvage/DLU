@@ -27,4 +27,4 @@ Donc ne met surtout pas de: .sql ou .docx .lib ect...
 
 
 tous problème:
-https://discord.gg/qTtzNGf4MN
+discord.gg/qTtzNGf4MN
