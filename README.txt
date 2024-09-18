@@ -1,9 +1,9 @@
  _____                                     _____ 
 ( ___ )                                   ( ___ )
  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | 
- |   | ███████╗ ██████╗   ██████╗ ██████╗  |   |             *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
- |   | ██╔════╝██╔══════╝ ██╔══██╗██╔══██╗ |   |               Full rework GUI/New version soon
- |   | ███████╗██║        ██║  ██║██████╔╝ |   |             *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ |   | ███████╗ ██████╗   ██████╗ ██████╗  |   |             *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+ |   | ██╔════╝██╔══════╝ ██╔══██╗██╔══██╗ |   |               Full rework GUI/New version. DLU2
+ |   | ███████╗██║        ██║  ██║██████╔╝ |   |             *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
  |   | ╚════██║██║        ██║  ██║██╔══██╗ |   | 
  |   | ███████║╚██████╗██╗██████╔╝██████╔╝ |   | 
  |   | ╚══════╝ ╚═════╝╚═╝╚═════╝ ╚═════╝  |   | 
@@ -12,16 +12,11 @@
 
 
 
-
-
-
-
-
-Tool crée par Saucisson Sauvage alias !'Ice
-Le script est safe en python, vous pouvez le check source je ne l'ai pas build
-Libre à vous de le leak! Mais évitez de changer les crédits, le vendre.
-
-
+OUTDATED, NEW VERSION OUT YET
+OUTDATED, NEW VERSION OUT YET
+OUTDATED, NEW VERSION OUT YET
+OUTDATED, NEW VERSION OUT YET
+OUTDATED, NEW VERSION OUT YET
 
 
 /!\ A LIRE!
